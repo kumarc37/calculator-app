@@ -41,10 +41,12 @@ body {
 .output .previousOperand {
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.75);
+  word-break: break-word;
 }
 .output .currentOperand {
   font-size: 2.5rem;
   color: rgba(255, 255, 255);
+  word-break: break-word;
 }
 .span-two {
   grid-column: span 2;
